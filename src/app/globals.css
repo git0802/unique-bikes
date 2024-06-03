@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.slick-prev {
+  z-index: 10;
+  height: 30px !important;
+  width: 30px !important;
+  left: 7px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+  text-shadow: 0 0 10px rgb(255, 255, 255) !important;
+}
+.slick-next {
+  right: 0px !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+.slick-dots {
+  bottom: 10px !important;
+}
+
+.slick-dots li button:before {
+  color: #000 !important;
+}
+
+.customBlur {
+  -webkit-backdrop-filter: blur(3px);
+}

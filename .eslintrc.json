@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@next/next/recommended"
+  ],
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-nested-ternary": "off",
+    "react/require-default-prop": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
