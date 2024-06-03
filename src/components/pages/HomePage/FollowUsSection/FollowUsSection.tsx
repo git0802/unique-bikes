@@ -47,7 +47,7 @@ const FollowUsSection = () => {
               alt="Follow Us"
               width={1000}
               height={1060}
-              className=" aspect-[1.36/1]"
+              className="cursor-pointer aspect-[1.36/1]"
             />
           </div>
           <div onClick={() => handleOpenGallery(img2.src)}>
