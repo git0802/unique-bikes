@@ -32,7 +32,7 @@ const HeroSection = () => {
           }}
           className={`bg-white-25 md:mt-[40px] mt-[20px] text-white-80 p-[10px] md:text-16px text-14px border-[1px] border-light-border text-white-80 ${roboto.className} uppercase`}
         >
-          Product
+          About Us
         </button>
       </div>
     </div>
