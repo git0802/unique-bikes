@@ -1,6 +1,6 @@
 # Unique Bikes
 
-Welcome to the Unique Bikes project! This project is a landing page for showcasing various types of bicycles along with their characteristics and advantages.
+Welcome to the Unique Bikes project! This project is a landing page for showcasing various types of bicycles along with their characteristics and advantages
 
 ## Table of Contents
 
